@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8 Ball</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/magic.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="center">
+        <h1>ask a question:</h1>
+        <input id="input"  type="text" required> <br>
+         <button class="btn btn-primary" onClick="shake()">Shake</button>
+    </div>
+    <div class="row">
+        <img id="ball" alt="Magic 8 Ball" src="8ball.png"> 
+        <div id="answer">
+    
+        </div>
+    </div>
+    
+    <script src="js/magic.js"></script>
+</body>
+</html>
+
+<!-- The parentNode property returns the parent node of the specified node, as a Node object. Note: In HTML, the document
+itself is the parent node of the HTML element, HEAD and BODY are child nodes of the HTML element. -->
